@@ -1,0 +1,37 @@
+{
+  "name": "pygmentize-bundled-cached",
+  "version": "1.0.0",
+  "description": "A caching interface to pygmentize-bundled",
+  "main": "pygmentize-bundled-cached.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Rod <rod@vagg.org> (http://r.va.gg/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvagg/servertest.git"
+  },
+  "dependencies": {
+    "bl": "~0.9.3",
+    "json-stable-stringify": "~1.0.0",
+    "mkdirp": "~0.5.0",
+    "pygmentize-bundled": "~2.3.0-pre1",
+    "reduplexer": "~1.0.0",
+    "through2": "~0.6.3"
+  },
+  "devDependencies": {
+    "require-subvert": "~0.1.0",
+    "rimraf": "~2.2.8",
+    "stream-equal": "~0.1.5",
+    "tape": "~3.0.3"
+  },
+  "keywords": [
+    "sriracha",
+    "pygments",
+    "pygmentize",
+    "syntax",
+    "highlight",
+    "stream"
+  ]
+}
