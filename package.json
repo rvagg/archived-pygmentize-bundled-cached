@@ -1,6 +1,6 @@
 {
   "name": "pygmentize-bundled-cached",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A caching interface to pygmentize-bundled",
   "main": "pygmentize-bundled-cached.js",
   "scripts": {
