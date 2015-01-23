@@ -7,6 +7,8 @@
 
 The API is exactly the same as [pygmentize-bundled](https://github.com/rvagg/node-pygmentize-bundled), so this is a drop-in replacement but instead of repeatedly calling a child process with Python to run Pygmentize, output will be saved to a cache the first time and served subsequent times.
 
+There is **one** API addition: If you provide a `cachePath` on the `options` object then you can override the default `$HOME/.pygmentize-bundled-cache` cache directory. This may be useful in environments where `HOME` is not set or you want to do something custom with the cache.
+
 ## Notes
 
 * The cache is located in `~/.pygmentize-bundled-cache` and is not cleaned up automatically, heavy use with new code samples will create a large cache, you have been warned!
